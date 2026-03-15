@@ -1,0 +1,136 @@
+'''herf=input('Enter a letter of the alphabet: ')
+if herf>='a' and herf<='z':
+    if herf=='a' or herf=='e' or herf=='i' or herf=='o' or herf=='u':
+        print('Entered alphabet is a vowel')
+    elif herf=='y':
+        print('Sometimes it is a vowel, and sometimes it is a consonant!')
+    else:
+        print('Entered alphabet is a consonant!')
+else:
+    print('It is not a letter of the alphabet')''' #Task-1
+
+'''month=input('Enter name of the month: ')
+day=int(input('Enter the day: '))
+if (month=='March' and day>=20) or month=='April' or month=='May' or (month=='June' and day<21):
+    print(f'{month} {day} is in Spring')
+elif(month=='June' and day>=21) or month=='July' or month=='August' or (month=='September' and day<22):
+        print(f'{month} {day} is in Summer')   
+elif(month=='September' and day>=22) or month=='October' or month=='November' or (month=='December' and day<23):
+        print(f'{month} {day} is in Fall')
+else:
+    print(f'{month} {day} is in Winter')''' #Task-2
+
+'''try:
+    wavelenght=int(input('Enter the wavelength in nm: '))
+    if wavelenght>=380 and wavelenght<450:
+        print('The relevant color is Violet')
+    elif wavelenght>=450 and wavelenght<495:
+        print('The relevant color is Blue')
+    elif wavelenght>=495 and wavelenght<570:
+        print('The relevant color is Green')
+    elif wavelenght>=570 and wavelenght<590:
+        print('The relevant color is Yellow')
+    elif wavelenght>=590 and wavelenght<620:
+        print('The relevant color is Orange')
+    elif wavelenght>=620 and wavelenght<=750:
+        print('The relevant color is Red')
+    else:
+        print('Invalid input!')
+except:
+    print('Xeta,eded duzgun daxil olunmayib')''' #Task-3
+
+'''try:
+ Year=int(input('Enter the year: '))
+ if Year>=0:
+     if Year%12==0:
+         print('Monkey')
+     elif Year%12==1:
+         print('Rooster')
+     elif Year%12==2:
+         print('Dog')
+     elif Year%12==3:
+         print('Pig')
+     elif Year%12==4:
+         print('Rat')
+     elif Year%12==5:
+         print('Ox')
+     elif Year%12==6:
+         print('Tiger')
+     elif Year%12==7:
+         print('Hare')
+     elif Year%12==8:
+         print('Dragon')
+     elif Year%12==9:
+         print('Snake')
+     elif Year%12==10:
+         print('Horse')
+     else:
+         print('Sheep')
+ else:
+     print('Invalid year!')
+except:
+    print('Eded duzgun daxil olunmayib')''' #Task-4
+
+'''Month=input('Enter a month: ')
+day=input('Enter the day: ')
+if (Month=='December' and '31'>=day>='22') or (Month=='January' and '1'<=day<='19'):
+    print('Capricom')
+elif (Month=='January' and '31'>=day>='20') or (Month=='February' and '1'<=day<='18'):
+    print('Aquarius')
+elif (Month=='February' and '29'>=day>='19') or (Month=='March' and '1'<=day<='20'):
+    print('Pisces')
+elif (Month=='March' and '31'>=day>='21') or (Month=='April' and '1'<=day<='19'):
+    print('Aries')
+elif (Month=='April' and '30'>=day>='20') or (Month=='May' and '1'<=day<='20'):
+    print('Taurus')
+elif (Month=='May' and '31'>=day>='21') or (Month=='June' and '1'<=day<='20'):
+    print('Gemini')
+elif (Month=='June' and '30'>=day>='21') or (Month=='July' and '1'<=day<='22'):
+    print('Cancer')
+elif (Month=='July' and '31'>=day>='23') or (Month=='August' and '1'<=day<='22'):
+    print('Leo')
+elif (Month=='August' and '31'>=day>='23') or (Month=='September' and '1'<=day<='22'):
+    print('Virgo')
+elif (Month=='September' and '30'>=day>='23') or (Month=='October' and '1'<=day<='22'):
+    print('Libra')
+elif (Month=='October' and '31'>=day>='23') or (Month=='November' and '1'<=day<='21'):
+    print('Scorpio')
+elif (Month=='November' and '30'>=day>='22') or (Month=='December' and '1'<=day<='21'):
+    print('Sagittarius')
+else:
+     print('Either a month or a day is invalid!')''' #Task-5
+
+'''x=int(input('eded daxil edin: ')
+y=int(input('eded daxil edin: ')
+if x**2+y**2>=4 and 2>=x>=0 and x>=y>=0:
+      print('daxildir')
+else:
+    print('daxil deyil')''' #Task-6
+
+'''x=int(input('eded daxil edin: '))
+y=int(input('eded daxil edin: '))
+if (y>=(x-2)**2-3 and x>=y>=0) or (y>=(x-2)**2-3 and y<=0 and x<=abs(y)):
+    print('daxildir')
+else:
+    print('daxil deyil')''' #Task-7
+
+'''x=int(input('eded daxil edin: '))
+y=int(input('eded daxil edin: '))
+if (y<=x**2 and y>=0 and y<=2-x and x>=0) or (y<=x**2 and y>=2-x and y>=0 and x<=0):
+    print('daxildir')
+else:
+    print('daxil deyil')''' #Task-8
+
+'''x=int(input('eded daxil edin: '))
+y=int(input('eded daxil edin: '))
+if (x**2+y**2<=1 and y>=-x and y>=x) or (x**2+y**2<=1 and y>=-x and x>=0 and y<=0) or (x**2+y**2<=1 and y>=x and x<=0 and y<=0) or(x**2+y**2>=1 and y<=x and y<=-x):
+    print('daxildir')
+else:
+    print('daxil deyil')''' #Task-9
+
+'''x=int(input('eded daxil edin: '))
+y=int(input('eded daxil edin: '))
+if (y>=x**2 and y>=4-x**2 and x>=0) or (y>=2-x and y<=x**2 and x<=0) or (y>=x**2 and y<=4-x**2 and y<=2-x and x<=0) or (y<=2-x and y<=x**2 and y>=0 and x>=0):
+    print('daxildir')
+else:
+    print('daxil deyil')''' #Task-10
