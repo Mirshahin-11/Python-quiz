@@ -1,0 +1,129 @@
+Python 3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+'''try:
+    name=input('ad daxil et:')
+    num_1=float(input('eded daxil edin:'))
+    num_2=float(input('eded daxil edin:'))
+    num_3=float(input('eded daxil edin:'))
+    average=(num_1+num_2+num_3)/3
+    if average>=85:
+        print(f'{name} {average} Excellent')
+    elif average>=75:
+        print(f'{name} {average} Very Good')
+    elif average>=65:
+        print(f'{name} {average} Good')
+    elif average>=50:
+        print(f'{name} {average} Pass')
+    else:
+        print(f'{name} {average} Fail')
+except:
+    print("Xeta!!! Yeniden yoxlayin.")
+'''
+'''try:
+    num=int(input('eded daxil edin:'))
+    if num%2==0:
+        print("cut")
+    else:
+        print("tek")
+except:
+    print('Xeta! Yeniden yoxla.')
+'''
+'''try:
+    num_1=int(input('eded daxil edin:'))
+    num_2=int(input('eded daxil edin:'))
+    if num_1>num_2:
+              print(f'{num_1} {num_2}-den boyukdur')
+    elif num_1==num_2:
+              print(f'{num_1} ve {num_2} beraberdir')
+    else:
+        print(f'{num_1} {num_2}-den kicikdir')
+except:
+    print('Xeta!,Yeniden yoxla.')
+'''
+'''try:
+    teref=int(input('eded daxil edin:'))
+    if teref>=3 and teref<=10:
+            print(f'{teref}bucaqli')
+    else:
+        print('Xeta')
+except:
+    print('Xeta! Yeniden yoxla')
+'''
+
+'''num_1=int(input("eded daxil edin:"))
+num_2=int(input("eded daxil edin:"))
+num_3=int(input("eded daxil edin:"))
+if num_1==num_2 and num_2==num_3:
+    print(num_1*9)
+else:
+    print(num_1+num_2+num_3)'''
+
+'''try:
+    num=float(input('eded daxil edin:'))
+    if num>0:
+        print('musbetdir')
+    elif num<0:
+        print('menfidir')
+    else:
+        print('sifirdir')
+except:
+    print('Xeta! Yeniden yoxla')
+'''
+'''a=int(input('eded daxil edin:'))
+b=int(input('eded daxil edin:'))
+c=int(input('eded daxil edin:'))
+D=b**2-4*a*c
+if D>0:
+    x1=(-b+D**(1/2))/(2*a)
+    x2=(-b-D**(1/2))/(2*a)
+    print('2 koku var',x1,x2)
+elif D==0:
+    x1=-b/(2*a)
+    x2=x1
+    print('2 beraber koku var',x1,x2)
+else:
+    print('heqiqi koku yoxdur')'''
+
+'''num_1=int(input('eded daxil edin:'))
+num_2=int(input('eded daxil edin:'))
+num_3=int(input('eded daxil edin:'))
+if num_1>num_2>num_3 or num_3>num_2>num_1:
+    print(f'Median {num_2}-e beraberdir')
+elif num_3>num_1>num_2 or num_2>num_1>num_3:
+    print(f'Median {num_1}-e beraberdir')
+else:
+    print(f'Median {num_3}-e beraberdir')
+insan_ceki=input('eded daxil edin:')
+insan_boy=input('eded daxil edin:')
+if type(insan_ceki)!=float or type(insan_boy)!=float:
+    print("xeta")
+elif int(insan_boy)-int(insan_ceki)==110:
+    print('cekisi optimaldir')
+else:
+    print('cekisi optimal deyil')'''
+
+'''num_1=int(input('eded daxil edin:'))
+num_2=int(input('eded daxil edin:'))
+num_3=int(input('eded daxil edin:'))
+if num_1>=num_2 and num_1>=num_3:
+    print(f'en boyuk eded {num_1}-dir')
+elif num_2>=num_1 and num_2>=num_3:
+    print(f'en boyuk eded {num_2}-dir')
+else:
+    print(f'en boyuk eded {num_3}-dur')'''
+
+'''mehsul_qiymeti=int(input('eded daxil edin:'))
+endirim_faizi=int(input('eded daxil edin:'))
+if mehsul_qiymeti>1000:
+    mehsul_qiymeti=mehsul_qiymeti-mehsul_qiymeti*0.1
+else:
+    mehsul_qiymeti=mehsul_qiymeti-mehsul_qiymeti*endirim_faizi/100
+print(mehsul_qiymeti)'''
+
+'''num_1=int(input('eded daxil edin:'))
+num_2=int(input('eded daxil edin:'))
+num_3=int(input('eded daxil edin:'))
+if num_1==num_2 or num_1==num_3 or num_2==num_3:
+    print(0)
+else:
+    print(num_1+num_2+num_3)'''
